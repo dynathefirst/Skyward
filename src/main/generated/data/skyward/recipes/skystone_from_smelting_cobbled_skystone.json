@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "skystone",
+  "ingredient": {
+    "item": "skyward:cobbled_skystone"
+  },
+  "result": "skyward:skystone"
+}

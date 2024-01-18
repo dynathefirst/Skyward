@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "skyward:floating_island",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 2135721794,
+    "spacing": 65,
+    "separation": 40,
+    "type": "minecraft:random_spread"
+  }
+}

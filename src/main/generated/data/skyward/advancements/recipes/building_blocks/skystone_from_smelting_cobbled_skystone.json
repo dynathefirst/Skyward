@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobbled_skystone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "skyward:cobbled_skystone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:skystone_from_smelting_cobbled_skystone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cobbled_skystone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:skystone_from_smelting_cobbled_skystone"
+    ]
+  }
+}

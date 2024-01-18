@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "skyward",
+	"version": "${version}",
+	"name": "Skyward",
+	"description": "An unexplored sky lies above.",
+	"authors": [
+		"Dyna"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/dynathefirst/Skyward"
+	},
+	"license": "MIT",
+	"icon": "assets/skyward/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dyna.skyward.Skyward"
+		],
+		"fabric-datagen": [
+			"net.dyna.skyward.SkywardDataGenerator"
+		]
+	},
+	"mixins": [
+		"skyward.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
