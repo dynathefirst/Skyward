@@ -13,5 +13,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.COBBLED_SKYSTONE);
         addDrop(ModBlocks.SKYSTONE, drops(ModBlocks.COBBLED_SKYSTONE));
+        addDrop(ModBlocks.CLOUD);
     }
 }

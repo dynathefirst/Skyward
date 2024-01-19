@@ -5,8 +5,10 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -17,6 +19,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block SKYSTONE = registerBlock("skystone", new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block COBBLED_SKYSTONE = registerBlock("cobbled_skystone", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+    public static final Block CLOUD = registerBlock("cloud", new Block(FabricBlockSettings.create().mapColor(MapColor.OFF_WHITE).breakInstantly().noBlockBreakParticles().noCollision().allowsSpawning(AbstractBlock.AbstractBlockState::allowsSpawning).collidable(false)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -36,6 +39,7 @@ public class ModBlocks {
 
     private static void addItemsToNaturalGroup(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.SKYSTONE);
+        entries.add(ModBlocks.CLOUD);
     }
 
     private static void addItemsToBuildingBlocksGroup(FabricItemGroupEntries entries) {

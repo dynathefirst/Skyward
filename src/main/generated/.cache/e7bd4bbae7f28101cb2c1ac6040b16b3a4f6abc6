@@ -1,3 +1,4 @@
-// 1.20.4	2024-01-18T17:20:35.0559972	Skyward/Block Loot Tables
+// 1.20.4	2024-01-19T17:11:19.3326667	Skyward/Block Loot Tables
 c8da3b63198768a0f7f69ed04bb148beb76165c2 data\skyward\loot_tables\blocks\skystone.json
 c8da3b63198768a0f7f69ed04bb148beb76165c2 data\skyward\loot_tables\blocks\cobbled_skystone.json
+b3ceadad0b7ab019aed5d3ae94a0c704b03df40d data\skyward\loot_tables\blocks\cloud.json

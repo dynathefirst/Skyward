@@ -15,6 +15,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COBBLED_SKYSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SKYSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLOUD);
     }
 
     @Override
