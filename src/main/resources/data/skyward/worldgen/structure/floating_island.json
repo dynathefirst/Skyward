@@ -6,7 +6,7 @@
   "biomes": "#skyward:has_structure/floating_island",
   "step": "surface_structures",
   "start_height": {
-    "absolute": 100
+    "absolute": 210
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "use_expansion_hack": false,
